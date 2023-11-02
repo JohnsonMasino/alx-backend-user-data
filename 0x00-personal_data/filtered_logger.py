@@ -49,7 +49,7 @@ def get_db() -> mysql.connector.connection.MySQLConnection:
         user=db_user,
         password=db_pwd,
         database=db_name,
-    )
+        )
     return connection
 
 
